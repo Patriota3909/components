@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" style.css">
+    <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.0.0/dist/signature_pad.umd.min.js"></script>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>Registro</header>
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Datos personales</span>
+
+                    <div class="fields">
+
+                        <div class="input-field">
+                            <label> Nombre completo</label>
+                            <input type="text" placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Fecha de nacimiento</label>
+                            <input type="date" placeholder="Fecha de nacimiento" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Correo electronico</label>
+                            <input type="email" placeholder="Ingresa el correo electronico" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Número de teléfono</label>
+                            <input type="number" placeholder="Numero de teléfono" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Género</label>
+                            <input type="date" placeholder="Género" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Correo electronico</label>
+                            <input type="email" placeholder="Ingresa el correo electronico" required>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="detalles">
+                    <span class="title">Dirección del paciente</span>
+
+                    <div class="fields">
+
+                        <div class="input-field">
+                            <label> Nombre completo</label>
+                            <input type="text" placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Fecha de nacimiento</label>
+                            <input type="date" placeholder="Fecha de nacimiento" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Correo electronico</label>
+                            <input type="email" placeholder="Ingresa el correo electronico" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Número de teléfono</label>
+                            <input type="number" placeholder="Numero de teléfono" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Género</label>
+                            <input type="date" placeholder="Género" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Correo electronico</label>
+                            <input type="email" placeholder="Ingresa el correo electronico" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+
+                </div>
+            </div>
+
+
+            <div class="form second">
+                <div class="details personal">
+                    <span class="title">Datos personales</span>
+
+                    <div class="fields">
+
+                        <div class="input-field">
+                            <label> Nombre completo</label>
+                            <input type="text" placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Fecha de nacimiento</label>
+                            <input type="date" placeholder="Fecha de nacimiento" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Correo electronico</label>
+                            <input type="email" placeholder="Ingresa el correo electronico" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Número de teléfono</label>
+                            <input type="number" placeholder="Numero de teléfono" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Género</label>
+                            <input type="date" placeholder="Género" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Correo electronico</label>
+                            <input type="email" placeholder="Ingresa el correo electronico" required>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="detalles">
+                    <span class="title">Dirección del paciente</span>
+
+                    <div class="fields">
+
+                        <div class="input-field">
+                            <label> Nombre completo</label>
+                            <input type="text" placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Fecha de nacimiento</label>
+                            <input type="date" placeholder="Fecha de nacimiento" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Correo electronico</label>
+                            <input type="email" placeholder="Ingresa el correo electronico" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Número de teléfono</label>
+                            <input type="number" placeholder="Numero de teléfono" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Género</label>
+                            <input type="date" placeholder="Género" required>
+                        </div>
+                        <div class="input-field">
+                            <label> Correo electronico</label>
+                            <input type="email" placeholder="Ingresa el correo electronico" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+
+                </div>
+            </div>
+
+            <h3>Firma digital</h3>
+            <canvas id="signature-pad" class="signature-pad" width=400 height=200
+                style="border: 1px solid #000;"></canvas>
+
+            <button id="clear" type="button">Limpiar firma</button>
+
+            <input type="hidden" name="firma" id="firmaInput">
+        </form>
+    </div>
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
